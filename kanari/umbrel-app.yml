@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: schjonhaug-kanari
+category: bitcoin
+name: Kanari
+version: "0.1.0"
+tagline: Bitcoin wallet management with Norwegian SMS notifications
+description: >-
+  Kanari is a Bitcoin wallet management service that provides REST API endpoints for creating and managing Bitcoin wallets using BDK (Bitcoin Development Kit). 
+  
+  The service supports multipath output descriptors, syncs with your Umbrel's Electrum server, and includes advanced transaction analysis capabilities with automatic background synchronization.
+  
+  Features:
+  - Create and manage multiple Bitcoin wallets
+  - Real-time SMS notifications in Norwegian for all Bitcoin transaction events
+  - Advanced transaction analysis (RBF, CPFP detection)
+  - Contact management for SMS notifications
+  - Comprehensive wallet metadata and event tracking
+  - RESTful API with OpenAPI documentation
+  - Background synchronization with your Bitcoin node
+
+developer: Andreas Schjønhaug
+website: https://github.com/schjonhaug
+dependencies:
+  - bitcoin
+  - electrs
+repo: https://github.com/schjonhaug/kanari
+support: https://github.com/schjonhaug/kanari/issues
+port: 3000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Andreas Schjønhaug
+submission: https://github.com/schjonhaug/umbrel-community-app-store
